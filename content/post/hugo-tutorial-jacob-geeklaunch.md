@@ -2,7 +2,10 @@
 title: "Hugo Tutorial Jacob Geeklaunch"
 date: 2017-11-07T11:56:16+01:00
 draft: false
+tags: ["hugo","tutorial","youtube","ghpages","static","generator"]
+categories: ["Development"]
 ---
+
 
 #hugo #tutorial #youtube #ghpages #static #generator
 
@@ -12,7 +15,7 @@ Rating 5/5
 
 ## Hugo tutorial
 
-Following the tutorial of [GeekLauch](https://www.youtube.com/watch?v=3wkR8GyDODs). Note that this tutorial requires bash or `bash on ubunut on windows`.
+Following the tutorial of [GeekLauch](https://www.youtube.com/watch?v=3wkR8GyDODs). Note that this tutorial requires bash or `bash on ubuntu on windows`.
 
 ``` bash
 hugo new site tutorial-jacob
@@ -83,7 +86,7 @@ Github supports hosting a static website which is called gh-pages.
 git remote add origin https://github.com/youraccount/tutorial-jacob.git
 git status
 git add --all
-git commit -m "My initial static site commit" 
+git commit -m "My initial static site commit"
 git push -u origin master # pushes all files to github
 ```
 
