@@ -1,7 +1,7 @@
 ---
 title: "Hugo Tutorial Jacob Geeklaunch"
 date: 2017-11-07T11:56:16+01:00
-draft: true
+draft: false
 ---
 
 #hugo #tutorial #youtube #ghpages #static #generator
