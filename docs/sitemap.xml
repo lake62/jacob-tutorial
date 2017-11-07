@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lake62.github.io/tutorial-jacob/post/hugo-tutorial-jacob-geeklaunch/</loc>
+    <lastmod>2017-11-07T11:56:16+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lake62.github.io/tutorial-jacob/post/first-post/</loc>
     <lastmod>2017-11-07T10:26:34+01:00</lastmod>
   </url>
@@ -38,13 +43,13 @@
   </url>
   
   <url>
-    <loc>https://lake62.github.io/tutorial-jacob/tags/development/</loc>
+    <loc>https://lake62.github.io/tutorial-jacob/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lake62.github.io/tutorial-jacob/categories/development/</loc>
+    <loc>https://lake62.github.io/tutorial-jacob/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -56,13 +61,13 @@
   </url>
   
   <url>
-    <loc>https://lake62.github.io/tutorial-jacob/tags/golang/</loc>
+    <loc>https://lake62.github.io/tutorial-jacob/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lake62.github.io/tutorial-jacob/categories/golang/</loc>
+    <loc>https://lake62.github.io/tutorial-jacob/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -75,13 +80,13 @@
   
   <url>
     <loc>https://lake62.github.io/tutorial-jacob/</loc>
-    <lastmod>2017-11-07T10:26:34+01:00</lastmod>
+    <lastmod>2017-11-07T11:56:16+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lake62.github.io/tutorial-jacob/post/</loc>
-    <lastmod>2017-11-07T10:26:34+01:00</lastmod>
+    <lastmod>2017-11-07T11:56:16+01:00</lastmod>
     <priority>0</priority>
   </url>
   

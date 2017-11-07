@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="John Doe">
+<meta name="description" content="Describe your website">
+<meta name="generator" content="Hugo 0.30.2" />
+<title>Hugo Tutorial Jacob Geeklaunch</title>
+<link rel="shortcut icon" href="https://lake62.github.io/tutorial-jacob/images/favicon.ico">
+<link rel="stylesheet" href="https://lake62.github.io/tutorial-jacob/css/style.css">
+<link rel="stylesheet" href="https://lake62.github.io/tutorial-jacob/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="https://lake62.github.io/tutorial-jacob/css/monosocialiconsfont.css">
+
+
+
+<link href="https://lake62.github.io/tutorial-jacob/index.xml" rel="alternate" type="application/rss+xml" title="Hugo Cactus Theme" />
+
+
+<meta property="og:title" content="Hugo Tutorial Jacob Geeklaunch" />
+<meta property="og:description" content="#hugo #tutorial #youtube #ghpages #static #generator
+Rating 5&frasl;5
+Make your own website Hugo tutorial Following the tutorial of GeekLauch. Note that this tutorial requires bash or bash on ubunut on windows.
+hugo new site tutorial-jacob cd tutorial-jacob vim config.toml # to see what&#39;s in the file. Type `esc` or `u` when accidently edited. hugo new post/first-post.md # write something in the first-post.md vim content/post/first-post.md  type ESC and :wq to quit VIM." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lake62.github.io/tutorial-jacob/post/hugo-tutorial-jacob-geeklaunch/" />
+
+
+
+<meta property="article:published_time" content="2017-11-07T11:56:16&#43;01:00"/>
+
+<meta property="article:modified_time" content="2017-11-07T11:56:16&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Hugo Tutorial Jacob Geeklaunch">
+<meta itemprop="description" content="#hugo #tutorial #youtube #ghpages #static #generator
+Rating 5&frasl;5
+Make your own website Hugo tutorial Following the tutorial of GeekLauch. Note that this tutorial requires bash or bash on ubunut on windows.
+hugo new site tutorial-jacob cd tutorial-jacob vim config.toml # to see what&#39;s in the file. Type `esc` or `u` when accidently edited. hugo new post/first-post.md # write something in the first-post.md vim content/post/first-post.md  type ESC and :wq to quit VIM.">
+
+
+<meta itemprop="datePublished" content="2017-11-07T11:56:16&#43;01:00" />
+<meta itemprop="dateModified" content="2017-11-07T11:56:16&#43;01:00" />
+<meta itemprop="wordCount" content="652">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Hugo Tutorial Jacob Geeklaunch"/>
+<meta name="twitter:description" content="#hugo #tutorial #youtube #ghpages #static #generator
+Rating 5&frasl;5
+Make your own website Hugo tutorial Following the tutorial of GeekLauch. Note that this tutorial requires bash or bash on ubunut on windows.
+hugo new site tutorial-jacob cd tutorial-jacob vim config.toml # to see what&#39;s in the file. Type `esc` or `u` when accidently edited. hugo new post/first-post.md # write something in the first-post.md vim content/post/first-post.md  type ESC and :wq to quit VIM."/>
+<meta name="twitter:site" content="@https://www.twitter.com/"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='https://lake62.github.io/tutorial-jacob'> <span class="arrow">←</span>Home</a>
+	
+
+	
+ 		<a href='/tutorial-jacob/about/'>About</a>
+  	
+
+	
+		<a class="cta" href="https://lake62.github.io/tutorial-jacob/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Hugo Tutorial Jacob Geeklaunch</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        November 7, 2017
+        <br>
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        
+
+<p>#hugo #tutorial #youtube #ghpages #static #generator</p>
+
+<p>Rating <sup>5</sup>&frasl;<sub>5</sub></p>
+
+<h1 id="make-your-own-website">Make your own website</h1>
+
+<h2 id="hugo-tutorial">Hugo tutorial</h2>
+
+<p>Following the tutorial of <a href="https://www.youtube.com/watch?v=3wkR8GyDODs">GeekLauch</a>. Note that this tutorial requires bash or <code>bash on ubunut on windows</code>.</p>
+
+<pre><code class="language-bash">hugo new site tutorial-jacob
+cd tutorial-jacob
+vim config.toml # to see what's in the file. Type `esc` or `u` when accidently edited.
+hugo new post/first-post.md
+# write something in the first-post.md
+vim content/post/first-post.md
+</code></pre>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> type <code>ESC</code> and <code>:wq</code> to quit VIM.</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> preview by typing <code>hugo server</code> runs locally on your computer. Gives an empty site, because there is no theme.</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> get a hugo theme from <a href="https://themes.gohugo.io">https://themes.gohugo.io</a> from the repository URL. This tutorial uses the <a href="https://themes.gohugo.io/cactus/">cactus theme</a>.</label></li>
+</ul>
+
+<pre><code class="language-bash">git init
+git submodule add https://github.com/digitalcraftsman/hugo-cactus-theme.git themes/hugo-cactus-theme
+</code></pre>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> <code>hugo server</code> in either <code>cmd</code> or <code>bash</code> still shows empty website, because hugo still not uses the theme. It needs configuration.</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> copy everything from exampleSite current directory <code>/themes</code> using bash</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> remember the folder name of your theme</label></li>
+</ul>
+
+<pre><code class="language-bash">ls # lists out all files in the dirextory
+# copy everything from exampleSite to here
+cp themes/hugo-cactus-theme/exampleSite/* . -r
+ls # lists out all files in the dirextory
+# windows uses dir
+</code></pre>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> now edit the config.toml</label></li>
+</ul>
+
+<pre><code class="language-bash">vim config.toml
+</code></pre>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> remove or change the baseurl into <code>https://yourname.github.io/tutorial-jacob/</code></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> change the value of <code>themesDir</code> to &lsquo;themes&rsquo;</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> change value of <code>theme</code> to the theme name</label></li>
+</ul>
+
+<p>Typing <code>hugo server</code> in either <code>cmd</code> or  <code>bash</code> will now show a working site. However your first-post.md does not show. What&rsquo;s going on?</p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> open bash</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> delete posts you do not need</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> undraft your first-post.md</label></li>
+</ul>
+
+<pre><code class="language-bash">cd content/post
+ls # dir in windows
+# remove all posts but not first-post.md
+rm file1 file2 etcetera # del in windows
+hugo undraft content/post/first-post.md
+# or edit directly
+vim content/post/first-post.md
+</code></pre>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> check if <code>draft: false</code> (necessary to display this post)</label></li>
+</ul>
+
+<h2 id="publicize-online">Publicize online</h2>
+
+<p>Github supports hosting a static website which is called gh-pages.</p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> create a new repository</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> copy the git URL link for remote github pages</label></li>
+</ul>
+
+<pre><code class="language-bash"># make sure your site name matches the repository name on Github
+git remote add origin https://github.com/youraccount/tutorial-jacob.git
+git status
+git add --all
+git commit -m &quot;My initial static site commit&quot; 
+git push -u origin master # pushes all files to github
+</code></pre>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> go to Settings &ndash;&gt; scroll down to Github Pages &ndash;&gt; <code>master branch /docs</code> &ndash;&gt; You cannot select it, because the site is not stored in a docs folder.</label></li>
+</ul>
+
+<p>We don&rsquo;t want to use the masterbranch, because it&rsquo;s a Hugo project. We need a website.</p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> run <code>hugo</code> to compile/generate a website</label></li>
+</ul>
+
+<pre><code class="language-bash">ls # dir shows 'public' folder
+# we need a docs folder
+vim config.toml
+</code></pre>
+
+<ul>
+<li><p>[ ] create a docs folder by adding <code>publishDir = &quot;docs&quot;</code> in the config.toml file</p></li>
+
+<li><p>[ ] run <code>hugo</code> again. This creates a docs folder. Check with <code>ls</code> or <code>dir</code></p></li>
+
+<li><p>[ ] now you can remove the public folder. The docs folder stores all the static website data now.</p></li>
+</ul>
+
+<pre><code class="language-bash">rm -r public
+git status
+git add --all
+git commit -m &quot;My second commit using the docs folder for statics.&quot;
+git push
+</code></pre>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> to turn off gh-pages create a new branch <code>turn-off-gh-pages</code> and go to Settings &ndash;&gt; Brnaches &ndash;&gt; Default branch &ndash;&gt; <code>turn-off-gh-pages</code></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> run <code>hugo</code> to compile the static site</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> make sure you create a passphrase for github with 6 seperated securely randomized words. Useful because long passwords are difficult to remember and reading and typing errors may occur.</label></li>
+</ul>
+
+<pre><code class="language-bash">git status
+git add -all
+git commit -m &quot;My third commit&quot;
+git push
+# if an error occurs
+git push --set upstream origin master
+# request for password
+</code></pre>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> now you can select the <code>master branch /docs</code> folder under Settings &ndash;&gt; Save</label></li>
+</ul>
+
+<h2 id="problem-solver">Problem solver</h2>
+
+<p>If your theme doesn&rsquo;t render properly check that the config.toml gets from the correct theme file.</p>
+
+<p>Check for typos. One mistake, one character different, can completely mess up the entire process. For instance, <code>git add -all</code> means no files are prepared to be pushed.</p>
+
+<h2 id="next">Next</h2>
+
+<p>The next tutorial is about Hugo taxonomies: catgories and tags They serve as visual navigation. The theme used is the <a href="https://github.com/digitalcraftsman/hugo-icarus-theme">hugo-icarus</a> theme.</p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/Your%20Twitter%20account">
+    <img class="avatar" src="https://lake62.github.io/tutorial-jacob/images/avatar.png">
+    <div>
+        <span class="dark">John Doe</span>
+        <span>I&#39;m an blogger.</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2flake62.github.io%2ftutorial-jacob%2fpost%2fhugo-tutorial-jacob-geeklaunch%2f - Hugo%20Tutorial%20Jacob%20Geeklaunch by @Your%20Twitter%20account"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/tutorial-jacob/post/first-post/">First Post<aside class="dates">Nov 7 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/tutorial-jacob/post/creating-a-new-theme/">Creating a New Theme<aside class="dates">Sep 28 2014</aside></a>
+        </li>
+    
+        <li>
+            <a href="/tutorial-jacob/post/goisforlovers/">(Hu)go Template Primer<aside class="dates">Apr 2 2014</aside></a>
+        </li>
+    
+        <li>
+            <a href="/tutorial-jacob/post/hugoisforlovers/">Getting Started with Hugo<aside class="dates">Apr 2 2014</aside></a>
+        </li>
+    
+        <li>
+            <a href="/tutorial-jacob/post/migrate-from-jekyll/">Migrating from Jekyll<aside class="dates">Mar 10 2014</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.dribbble.com/">
+        circledribble
+    </a>
+    
+    <a class="symbol" href="https://www.facebook.com/">
+        circlefacebook
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2017 John Doe
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://lake62.github.io/tutorial-jacob/js/main.js"></script>
+<script src="https://lake62.github.io/tutorial-jacob/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+</body>
+</html>
