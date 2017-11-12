@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Hugo Cactus Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Nov 2017 11:56:16 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 13 Nov 2017 00:09:38 +0100</lastBuildDate>
     
 	<atom:link href="https://lake62.github.io/tutorial-jacob/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crazy Idea</title>
+      <link>https://lake62.github.io/tutorial-jacob/post/crazy-idea/</link>
+      <pubDate>Mon, 13 Nov 2017 00:09:38 +0100</pubDate>
+      
+      <guid>https://lake62.github.io/tutorial-jacob/post/crazy-idea/</guid>
+      <description>Creating an online company I&amp;rsquo;m having this idea to create my own company.
+All alone, by myself.
+I want to ingest data about market movements and product adoption. E.g. searches for buy （買う）and sell （売る）. And also terms that suggest adoption. Explain how the diffusion of innovation works, and its roadmap. Also, what we can expect.
+Most important I want live data ingestion. And use this data to make offline graphs and predictions.</description>
+    </item>
     
     <item>
       <title>Hugo Tutorial Jacob Geeklaunch</title>
