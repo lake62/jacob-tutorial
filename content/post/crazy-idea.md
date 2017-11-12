@@ -4,6 +4,8 @@ date: 2017-11-13T00:09:38+01:00
 draft: false
 ---
 
+#  Creating an online company
+
 I'm having this idea to create my own company.
 
 All alone, by myself.
