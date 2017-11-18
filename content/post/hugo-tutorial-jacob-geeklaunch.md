@@ -1,5 +1,5 @@
 ---
-title: "Hugo Tutorial Jacob Geeklaunch"
+title: "Hugo Tutorial"
 date: 2017-11-07T11:56:16+01:00
 draft: false
 tags: ["hugo","tutorial","youtube","ghpages","static","generator"]
@@ -9,13 +9,13 @@ categories: ["Development"]
 
 #hugo #tutorial #youtube #ghpages #static #generator
 
-Rating 5/5
+Tutorial rating 5/5
 
 # Make your own website
 
 ## Hugo tutorial
 
-Following the tutorial of [GeekLauch](https://www.youtube.com/watch?v=3wkR8GyDODs). Note that this tutorial requires bash or `bash on ubuntu on windows`.
+This tutorial follows the video walkthrough done by Jacob from [GeekLaunch](https://www.youtube.com/watch?v=3wkR8GyDODs). Note that this tutorial requires bash or `bash on ubuntu on windows`.
 
 ``` bash
 hugo new site tutorial-jacob
@@ -25,6 +25,7 @@ hugo new post/first-post.md
 # write something in the first-post.md
 vim content/post/first-post.md
 ```
+
 
 - [ ] type `ESC` and `:wq` to quit VIM.
 - [ ] preview by typing `hugo server` runs locally on your computer. Gives an empty site, because there is no theme.

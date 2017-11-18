@@ -12,15 +12,15 @@
     
     
     <item>
-      <title>Hugo Tutorial Jacob Geeklaunch</title>
+      <title>Hugo Tutorial</title>
       <link>https://lake62.github.io/tutorial-jacob/post/hugo-tutorial-jacob-geeklaunch/</link>
       <pubDate>Tue, 07 Nov 2017 11:56:16 +0100</pubDate>
       
       <guid>https://lake62.github.io/tutorial-jacob/post/hugo-tutorial-jacob-geeklaunch/</guid>
       <description>#hugo #tutorial #youtube #ghpages #static #generator
-Rating 5&amp;frasl;5
-Make your own website Hugo tutorial Following the tutorial of GeekLauch. Note that this tutorial requires bash or bash on ubuntu on windows.
-hugo new site tutorial-jacob cd tutorial-jacob vim config.toml # to see what&#39;s in the file. Type `esc` or `u` when accidently edited. hugo new post/first-post.md # write something in the first-post.md vim content/post/first-post.md  type ESC and :wq to quit VIM.</description>
+Tutorial rating 5&amp;frasl;5
+Make your own website Hugo tutorial This tutorial follows the video walkthrough done by Jacob from GeekLaunch. Note that this tutorial requires bash or bash on ubuntu on windows.
+hugo new site tutorial-jacob cd tutorial-jacob vim config.toml # to see what&#39;s in the file. Type `esc` or `u` when accidently edited. hugo new post/first-post.md # write something in the first-post.md vim content/post/first-post.</description>
     </item>
     
     <item>
