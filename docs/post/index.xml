@@ -6,10 +6,24 @@
     <description>Recent content in Posts on Hugo Cactus Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Nov 2017 00:09:38 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Nov 2017 07:53:57 +0100</lastBuildDate>
     
 	<atom:link href="https://lake62.github.io/tutorial-jacob/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Html Test</title>
+      <link>https://lake62.github.io/tutorial-jacob/post/html-test/</link>
+      <pubDate>Sat, 18 Nov 2017 07:53:57 +0100</pubDate>
+      
+      <guid>https://lake62.github.io/tutorial-jacob/post/html-test/</guid>
+      <description>HTML Test In the Atom Styleguide I found some interesting style snippets. I wonder if they will work on static sites as well. If they work the checkboxes would be especially nice. To follow along with a tutorial and check off steps.
+Update: I just reviewed gfm-markdown also enables you to toggle checkboxes.
+my gfm checkbox  HTML snippets Keyboard keys:
+Ctrl+Shift+A
+Progress:  75% progress 
+Panel: Selected &amp;mdash; user is arrowing through the list.</description>
+    </item>
     
     <item>
       <title>Crazy Idea</title>
