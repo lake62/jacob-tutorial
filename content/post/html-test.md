@@ -1,7 +1,7 @@
 ---
 title: "Html Test"
 date: 2017-11-18T07:53:57+01:00
-draft: true
+draft: false
 ---
 
 #  HTML Test
@@ -9,6 +9,10 @@ draft: true
 In the Atom Styleguide I found some interesting style snippets.
 I wonder if they will work on static sites as well.
 If they work the checkboxes would be especially nice. To follow along with a tutorial and check off steps.
+
+Update: I just reviewed gfm-markdown also enables you to toggle checkboxes.
+
+- [ ] my gfm checkbox
 
 ## HTML snippets
 
