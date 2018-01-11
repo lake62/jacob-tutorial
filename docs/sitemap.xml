@@ -58,14 +58,14 @@
   </url>
   
   <url>
-    <loc>https://lake62.github.io/tutorial-jacob/categories/development/</loc>
-    <lastmod>2017-11-07T11:56:16+01:00</lastmod>
+    <loc>https://lake62.github.io/tutorial-jacob/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lake62.github.io/tutorial-jacob/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://lake62.github.io/tutorial-jacob/categories/development/</loc>
+    <lastmod>2017-11-07T11:56:16+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -88,13 +88,13 @@
   </url>
   
   <url>
-    <loc>https://lake62.github.io/tutorial-jacob/categories/golang/</loc>
+    <loc>https://lake62.github.io/tutorial-jacob/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lake62.github.io/tutorial-jacob/tags/golang/</loc>
+    <loc>https://lake62.github.io/tutorial-jacob/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
