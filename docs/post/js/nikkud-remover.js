@@ -17,6 +17,6 @@ function stripVowels2(rawString) {
 
 function doStrip() {
    var input = $('#input').val();
-   var output = stripVowels2(input);
+   var output = stripVowels(input);
    $('#output').val(output);
 }
