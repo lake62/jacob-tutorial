@@ -22,7 +22,7 @@
 
 
 <meta property="og:title" content="Nikkud remover JavaScript" />
-<meta property="og:description" content="# Test Javascript to remove nikkudNikkud (also Niqqud) is used in Hebrew to denote vowels.The diacretical signs can be removed with JavaScript.Flattening which means removing the Nikkud, happens by accessing the UTF-8 character, and replace the Nikkud.The output becomes Hebrew without the Nikkud.Input Hebrew with Nikkud:Remove Nikkud!Output of Hebrew without Nikkud:" />
+<meta property="og:description" content="# Test Javascript to remove nikkudNikkud (also Niqqud) is used in Hebrew to denote vowels.The diacretical signs can be removed with JavaScript.Flattening, which means removing text richness such as capitalization and diacretics,happens by accessing the UTF-8 characters between u0591 and u05C7, and replace the Nikkud.The output becomes Hebrew without the Nikkud.Input Hebrew with Nikkud:Remove Nikkud!Output of Hebrew without Nikkud:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lake62.github.io/tutorial-jacob/post/nikkud-remover-javascript/" />
 
@@ -45,19 +45,19 @@
 
 
 <meta itemprop="name" content="Nikkud remover JavaScript">
-<meta itemprop="description" content="# Test Javascript to remove nikkudNikkud (also Niqqud) is used in Hebrew to denote vowels.The diacretical signs can be removed with JavaScript.Flattening which means removing the Nikkud, happens by accessing the UTF-8 character, and replace the Nikkud.The output becomes Hebrew without the Nikkud.Input Hebrew with Nikkud:Remove Nikkud!Output of Hebrew without Nikkud:">
+<meta itemprop="description" content="# Test Javascript to remove nikkudNikkud (also Niqqud) is used in Hebrew to denote vowels.The diacretical signs can be removed with JavaScript.Flattening, which means removing text richness such as capitalization and diacretics,happens by accessing the UTF-8 characters between u0591 and u05C7, and replace the Nikkud.The output becomes Hebrew without the Nikkud.Input Hebrew with Nikkud:Remove Nikkud!Output of Hebrew without Nikkud:">
 
 
 <meta itemprop="datePublished" content="2018-01-11T07:53:57&#43;01:00" />
 <meta itemprop="dateModified" content="2018-01-11T07:53:57&#43;01:00" />
-<meta itemprop="wordCount" content="58">
+<meta itemprop="wordCount" content="67">
 
 
 
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Nikkud remover JavaScript"/>
-<meta name="twitter:description" content="# Test Javascript to remove nikkudNikkud (also Niqqud) is used in Hebrew to denote vowels.The diacretical signs can be removed with JavaScript.Flattening which means removing the Nikkud, happens by accessing the UTF-8 character, and replace the Nikkud.The output becomes Hebrew without the Nikkud.Input Hebrew with Nikkud:Remove Nikkud!Output of Hebrew without Nikkud:"/>
+<meta name="twitter:description" content="# Test Javascript to remove nikkudNikkud (also Niqqud) is used in Hebrew to denote vowels.The diacretical signs can be removed with JavaScript.Flattening, which means removing text richness such as capitalization and diacretics,happens by accessing the UTF-8 characters between u0591 and u05C7, and replace the Nikkud.The output becomes Hebrew without the Nikkud.Input Hebrew with Nikkud:Remove Nikkud!Output of Hebrew without Nikkud:"/>
 <meta name="twitter:site" content="@https://www.twitter.com/"/>
 
 
@@ -95,7 +95,8 @@
 
 Nikkud (also Niqqud) is used in Hebrew to denote vowels.
 The diacretical signs can be removed with JavaScript.
-Flattening which means removing the Nikkud, happens by accessing the UTF-8 character, and replace the Nikkud.
+Flattening, which means removing text richness such as capitalization and diacretics,
+happens by accessing the UTF-8 characters between u0591 and u05C7, and replace the Nikkud.
 The output becomes Hebrew without the Nikkud.<br/></br>
 
   <body>
@@ -106,7 +107,7 @@ The output becomes Hebrew without the Nikkud.<br/></br>
     <textarea id="input" rows="20" cols="100"></textarea><br/>
     <br/>
 
-    <button id="convert" onClick="doStrip()">
+    <button id="convert" onClick="flattenNikkud()">
     Remove Nikkud!
   </button></br></br>
 
