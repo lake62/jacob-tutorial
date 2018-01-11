@@ -6,10 +6,10 @@ tags: ["hugo","tutorial","youtube","ghpages","static","generator"]
 categories: ["Development"]
 ---
 
-
-#hugo #tutorial #youtube #ghpages #static #generator
-
-Tutorial rating 5/5
+<div class='block'>
+    <progress class='inline-block' max='10' value='8'></progress>
+    <span class='inline-block'>Rating: 8/10</span>
+</div>
 
 # Make your own website
 

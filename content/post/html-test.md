@@ -10,7 +10,7 @@ In the Atom Styleguide I found some interesting style snippets.
 I wonder if they will work on static sites as well.
 If they work the checkboxes would be especially nice. To follow along with a tutorial and check off steps.
 
-Update: I just reviewed gfm-markdown also enables you to toggle checkboxes.
+UPDATE: With gfm-markdown checkboxes cannot be toggled (yet).
 
 - [ ] my gfm checkbox
 
@@ -57,6 +57,8 @@ Panel with icons:
     </div>
 </atom-panel>
 
+A colored list does not show up colored outside of Atom, but the highlighting is still visible. This might be useful for column data.
+
 Colored list:
 <ul class='list-group'>
     <li class='list-item'>Normal item</li>
@@ -71,14 +73,26 @@ Colored list:
 Interactives:
 
 <input class='input-color' type='color' value='#FF85FF' >
+<p></p>
 <input class='input-number' type='number' min='1' max='10' placeholder='1-10'>
+<p></p>
 <select class='input-select'><option>Option 1</option><option>Option 2</option><option>Option 3</option></select>
-
+<p></p>
 <label class='input-label'><input class='input-radio' type='radio' name='radio'> Radio</label>
+<p></p>
 <label class='input-label'><input class='input-radio' type='radio' name='radio' checked> Radio</label>
+<p></p>
 <label class='input-label'><input class='input-checkbox' type='checkbox' checked> Checkbox</label>
+<p></p>
 <label class='input-label'><input class='input-toggle' type='checkbox' checked> Toggle</label>
 <input class='input-range' type='range'> Slider </input>
+
+<p></p>
+<p>The best way to layout HTML checkboxes is to use paragraphs.</p>
+<p>`<p><label class='input-label'><input class='input-checkbox' type='checkbox' > task</label></p>`</p>
+
+<p><label class='input-label'><input class='input-checkbox' type='checkbox' > task1</label></p>
+<p><label class='input-label'><input class='input-checkbox' type='checkbox' > task2</label></p>
 
 <br>
 <span class='loading loading-spinner-medium inline-block'></span>

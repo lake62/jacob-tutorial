@@ -23,7 +23,7 @@
 
 <meta property="og:title" content="Html Test" />
 <meta property="og:description" content="HTML Test In the Atom Styleguide I found some interesting style snippets. I wonder if they will work on static sites as well. If they work the checkboxes would be especially nice. To follow along with a tutorial and check off steps.
-Update: I just reviewed gfm-markdown also enables you to toggle checkboxes.
+UPDATE: With gfm-markdown checkboxes cannot be toggled (yet).
 my gfm checkbox  HTML snippets Keyboard keys:
 Ctrl&#43;Shift&#43;A
 Progress:  75% progress 
@@ -51,7 +51,7 @@ Panel: Selected &mdash; user is arrowing through the list." />
 
 <meta itemprop="name" content="Html Test">
 <meta itemprop="description" content="HTML Test In the Atom Styleguide I found some interesting style snippets. I wonder if they will work on static sites as well. If they work the checkboxes would be especially nice. To follow along with a tutorial and check off steps.
-Update: I just reviewed gfm-markdown also enables you to toggle checkboxes.
+UPDATE: With gfm-markdown checkboxes cannot be toggled (yet).
 my gfm checkbox  HTML snippets Keyboard keys:
 Ctrl&#43;Shift&#43;A
 Progress:  75% progress 
@@ -60,7 +60,7 @@ Panel: Selected &mdash; user is arrowing through the list.">
 
 <meta itemprop="datePublished" content="2017-11-18T07:53:57&#43;01:00" />
 <meta itemprop="dateModified" content="2017-11-18T07:53:57&#43;01:00" />
-<meta itemprop="wordCount" content="115">
+<meta itemprop="wordCount" content="151">
 
 
 
@@ -68,7 +68,7 @@ Panel: Selected &mdash; user is arrowing through the list.">
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Html Test"/>
 <meta name="twitter:description" content="HTML Test In the Atom Styleguide I found some interesting style snippets. I wonder if they will work on static sites as well. If they work the checkboxes would be especially nice. To follow along with a tutorial and check off steps.
-Update: I just reviewed gfm-markdown also enables you to toggle checkboxes.
+UPDATE: With gfm-markdown checkboxes cannot be toggled (yet).
 my gfm checkbox  HTML snippets Keyboard keys:
 Ctrl&#43;Shift&#43;A
 Progress:  75% progress 
@@ -114,7 +114,7 @@ Panel: Selected &mdash; user is arrowing through the list."/>
 I wonder if they will work on static sites as well.
 If they work the checkboxes would be especially nice. To follow along with a tutorial and check off steps.</p>
 
-<p>Update: I just reviewed gfm-markdown also enables you to toggle checkboxes.</p>
+<p>UPDATE: With gfm-markdown checkboxes cannot be toggled (yet).</p>
 
 <ul class="task-list">
 <li><label><input type="checkbox" disabled class="task-list-item"> my gfm checkbox</label></li>
@@ -163,6 +163,8 @@ If they work the checkboxes would be especially nice. To follow along with a tut
     </div>
 </atom-panel></p>
 
+<p>A colored list does not show up colored outside of Atom, but the highlighting is still visible. This might be useful for column data.</p>
+
 <p>Colored list:
 <ul class='list-group'>
     <li class='list-item'>Normal item</li>
@@ -177,14 +179,26 @@ If they work the checkboxes would be especially nice. To follow along with a tut
 <p>Interactives:</p>
 
 <p><input class='input-color' type='color' value='#FF85FF' >
+<p></p>
 <input class='input-number' type='number' min='1' max='10' placeholder='1-10'>
-<select class='input-select'><option>Option 1</option><option>Option 2</option><option>Option 3</option></select></p>
-
-<p><label class='input-label'><input class='input-radio' type='radio' name='radio'> Radio</label>
+<p></p>
+<select class='input-select'><option>Option 1</option><option>Option 2</option><option>Option 3</option></select>
+<p></p>
+<label class='input-label'><input class='input-radio' type='radio' name='radio'> Radio</label>
+<p></p>
 <label class='input-label'><input class='input-radio' type='radio' name='radio' checked> Radio</label>
+<p></p>
 <label class='input-label'><input class='input-checkbox' type='checkbox' checked> Checkbox</label>
+<p></p>
 <label class='input-label'><input class='input-toggle' type='checkbox' checked> Toggle</label>
 <input class='input-range' type='range'> Slider </input></p>
+
+<p></p>
+<p>The best way to layout HTML checkboxes is to use paragraphs.</p>
+<p>`<p><label class='input-label'><input class='input-checkbox' type='checkbox' > task</label></p>`</p>
+
+<p><label class='input-label'><input class='input-checkbox' type='checkbox' > task1</label></p>
+<p><label class='input-label'><input class='input-checkbox' type='checkbox' > task2</label></p>
 
 <p><br>
 <span class='loading loading-spinner-medium inline-block'></span></p>
@@ -303,7 +317,7 @@ If they work the checkboxes would be especially nice. To follow along with a tut
     
     <p class="small">
     
-        © Copyright 2017 John Doe
+        © Copyright 2018 John Doe
     
     </p>
 </footer>
