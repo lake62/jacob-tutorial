@@ -6,21 +6,23 @@ draft: false
 
 <title># Test Javascript to remove nikkud</title>
 
-Nikkud is used in Hebrew to denote vowels.
-It can be flattened by using UTF-8 to switch the characters in Javascript.<br/>
+Nikkud (also Niqqud) is used in Hebrew to denote vowels.
+The diacretical signs can be removed with JavaScript.
+Flattening which means removing the Nikkud, happens by accessing the UTF-8 character, and replace the Nikkud.
+The output becomes Hebrew without the Nikkud .<br/>
 
 <body>
   <script src="jquery-3.2.1.min.js"></script>
   <script src="nikkud-remover.js"></script>
 
-  Enter input text here:<br/>
+  Input Hebrew with Nikkud:<br/>
   <textarea id="input" rows="20" cols="100"></textarea><br/><br/>
 
-  Enter output text here:<br/>
+  Output of Hebrew without NIkkud:<br/>
   <textarea id="output" rows="20" cols="100"></textarea><br/><br/>
 
   <button id="convert" onClick="doStrip()">
-  Strip Vowels
+  Remove Nikkud!
   </button>
 
 </body>
