@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Hugo Cactus Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Nov 2017 07:53:57 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 07:53:57 +0100</lastBuildDate>
     
 	<atom:link href="https://lake62.github.io/tutorial-jacob/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nikkud remover JavaScript</title>
+      <link>https://lake62.github.io/tutorial-jacob/post/nikkud-remover-javascript/</link>
+      <pubDate>Thu, 11 Jan 2018 07:53:57 +0100</pubDate>
+      
+      <guid>https://lake62.github.io/tutorial-jacob/post/nikkud-remover-javascript/</guid>
+      <description>Test Javascript to remove nikkud Nikkud is used in Hebrew to denote vowels. It can be flattened by using UTF-8 to switch the characters in Javascript.</description>
+    </item>
     
     <item>
       <title>Html Test</title>
